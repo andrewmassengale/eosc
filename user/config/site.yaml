@@ -1,0 +1,18 @@
+title: 'Elmhurst Outpatient Surgery Center'
+default_lang: en
+author:
+  name: 'Joe Bloggs'
+  email: joe@test.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  Description: 'Elmhurst Outpatient Surgery Center is a Multi-specialty ambulatory surgery center located in Elmhurst, Illinois, a suburb just west of Chicago.'
+  Keywords: 'Elmhurst Outpatient Surgery Center, EOSC, Hospital, DuPage physician, Elmhurst doctor, DuPage doctor, Multi-specialty ambulatory surgery center, healthcare, preparation for surgery, after surgery, your bill, expenses, patient survey, surgery for children, cataract surgery, Catalys by OptiMedica™, state-of-the-art laser, iStent, advanced 3D imaging cataract removal system, Tenex, tendon pain, tendon surgery, CareWire, mobile messaging, online pre-surgical assessement, One Medical Passport'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
