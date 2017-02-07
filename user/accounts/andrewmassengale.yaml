@@ -1,0 +1,13 @@
+email: andrew.massengale@gmail.com
+fullname: 'Andrew Massengale'
+title: Webmaster
+state: enabled
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+    users: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$NKopLk452i7tunsM9E94uejJPqqOvVLlSCFtjqSYVqpb2aECqzp/W
+language: en

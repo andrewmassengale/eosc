@@ -1,0 +1,210 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+<!DOCTYPE html>
+<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<head>
+{% block head %}
+	<meta charset="utf-8" />
+	<title>{% if header.title %}{{ header.title|e('html') }}{% else %}{{ site.title|e('html') }}{% endif %}</title>
+	{% include 'partials/metadata.html.twig' %}
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" type="image/png" href="{{ url('theme://images/favicon.ico') }}" />
+	<link rel="canonical" href="{{ page.url(true, true) }}" />
+
+	{% block stylesheets %}
+		{% do assets.addCss('theme://css/style.css') %}
+	{% endblock %}
+	{{ assets.css() }}
+
+	{% block javascripts %}
+		{% do assets.addJs('theme://js/jquery-1.7.2.min.js') %}
+		{% do assets.addJs('theme://js/superfish.js') %}
+		{% do assets.addJs('theme://js/jquery.responsivemenu.js') %}
+		{% do assets.addJs('theme://js/cufon-yui.js') %}
+		<style type="text/css">cufon{text-indent:0!important;}@media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:1px!important;line-height:1px!important;}cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:0!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}cufon canvas{display:none!important;}}</style>
+		{% do assets.addJs('theme://js/kozuka_gothic_pro_opentype_700.font.js') %}
+		{% do assets.addJs('theme://js/cufon-replace.js') %}
+		{% do assets.addJs('theme://js/jquery.flexslider-min.js') %}
+		{% do assets.addJs('theme://js/FF-cash.js') %}
+		{% do assets.addJs('theme://js/script.js') %}
+		<style type="text/css">:root #content > #center > .dose > .dosesingle,:root #content > #right > .dose > .dosesingle{ display: none !important; }</style>
+	{% endblock %}
+	{{ assets.js() }}
+
+{% endblock head %}
+</head>
+<body id="top" class="{{ page.header.body_classes }}">
+	<div id="sb-site">
+		{% block header %}
+		<div class="container_24">
+			<div>
+				<div class="grid_24">
+					<!-- header -->
+					<header>
+						<div class="border-1">
+							<h1><a href="{{ base_url == '' ? '/' : base_url }}">Elmhurst Outpatient Surgery</a></h1>
+							<!-- menu -->
+							{% block header_navigation %}
+							{% include 'partials/navigation.html.twig' %}
+							{% endblock %}
+							<!-- end menu -->
+							<div class="clear"></div>
+						</div>
+						{{ dump(page.header.home) }}
+						{% if page.header.home %}
+							<div class="flexslider">
+								<ul class="slides">
+									<li>
+										<img src="/user/themes/eosc/images/slide-1.jpg" alt="">
+										<div class="flex-caption">
+											<div class="slide-block-1">
+												<span class="t-1">Improve Your Vision!</span>
+												<span class="t-2">NEW YEAR! NEW VIEW!</span>
+											</div>
+											<div class="slide-block-2">Elmhurst Outpatient Surgery Center introduces Catalys by OptiMedica&#8482;, a state-of-the-art cataract laser system, giving patients a new and clearer view. See what you've been missing!</div>
+											<div class="slide-block-3">
+												<a class="button" href="/home/catalys">read more</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="/user/themes/eosc/images/slide-2.jpg" alt="">
+										<div class="flex-caption">
+											<div class="slide-block-1">
+												<span class="t-1">Uniquely You!</span>
+												<span class="t-2">Custom Approach</span>
+											</div>
+											<div class="slide-block-2">While all eyes share the same basic anatomy, there are individual differences in size, depth and curvature.</div>
+											<div class="slide-block-3">
+												<a class="button" href="/home/catalys">read more</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="/user/themes/eosc/images/slide-3.jpg" alt="">
+										<div class="flex-caption">
+											<div class="slide-block-1">
+												<span class="t-1">Eye Protection!</span>
+												<span class="t-2">Enhanced Safety Features</span>
+											</div>
+											<div class="slide-block-2">Catalys' advanced 3D mapping and image-guidance software ensure that the laser pulses are delivered only to the intended treatment area, protecting surrounding eye anatomy.</div>
+											<div class="slide-block-3">
+												<a class="button" href="/home/catalys">read more</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="/user/themes/eosc/images/slide-4.jpg" alt="">
+										<div class="flex-caption">
+											<div class="slide-block-1">
+												<span class="t-1">See What She Sees!</span>
+												<span class="t-2">Speed &amp; Comfort</span>
+											</div>
+											<div class="slide-block-2">With Catalys, each individual treatment is pre-programmed into the system to improve accuracy and reduce the total procedure time.</div>
+											<div class="slide-block-3">
+												<a class="button" href="/home/catalys">read more</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="/user/themes/eosc/images/slide-5.jpg" alt="">
+										<div class="flex-caption">
+											<div class="slide-block-1">
+												<span class="t-1">Get Your Game On!</span>
+												<span class="t-2">Unmatched Precision</span>
+											</div>
+											<div class="slide-block-2">Catalys delivers precision that is unmatched in the industry, producing incisions that are accurate within tens of microns.</div>
+											<div class="slide-block-3">
+												<a class="button" href="/home/catalys">read more</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="line-2 ident-bot-2"></div>
+						{% endif %}
+					</header><!-- end header -->
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		{% endblock %}
+
+		{% block showcase %}{% endblock %}
+
+		{% block body %}
+		<section id="body" class="{{ class }}">
+			{% block content %}{% endblock %}
+		</section>
+		{% endblock %}
+
+		<div class="clear"></div>
+
+		{% block footer %}
+			<div class="container_24">
+				<div class="wrapper">
+					<div class="grid_24">
+						<!-- footer -->
+						<footer>
+							<aside class="footer-aside">
+								<div class="wrapper">
+									<div class="grid_7 alpha rt-ident-bot-2 rt-grid-1">
+										<div class="rt-inner-ident-1">
+											<h3 class="ident-bot-8">Additional Info</h3>
+											<ul class="footer-list">
+												<li><a href="/contact">Directions</a></li>
+												<li><a href="/patients/insurance-and-financial/insurance-plans">Insurance Plans </a></li>
+												<li><a href="/patients/patient-survey">Patient Survey</a></li>
+												<li><a href="/patients/2010_Authorization_Use-Disclose_PHI.pdf" target="_blank">Records Release Form</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="grid_6 rt-ident-bot-2 rt-grid-1 ident-l">
+										<div class="rt-inner-ident-2">
+											<h3 class="ident-bot-8">Staff &amp; Employees</h3>
+											<ul class="footer-list">
+												<li><a href="https://www.eosc.org/eosc/LoginForm.cfm" target="_blank">Medical Staff Login</a></li>
+												<li><a href="https://mail.emhc.org/owa/auth/logon.aspx" target="_blank">Employee Email</a></li>
+												<li><a href="https://login.paylocity.com/escher/escher_webui/views/login/login.aspx" target="_blank">Employee Portal</a></li>
+												<li><a href="/jobs">Jobs</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="grid_6 rt-ident-bot-2 rt-grid-1">
+										<div class="rt-inner-ident-2">
+											<h3 class="ident-bot-8">Links</h3>
+											<ul class="footer-list">
+												<li><a href="http://www.ascassociation.org" target="_blank">ASC Association</a></li>
+												<li><a href="http://ascillinois.org/aws/ASCAI/pt/sp/home_page" target="_blank">ASC Association of IL</a></li>
+												<li><a href="http://www.emhc.org/" target="_blank">Elmhurst Memorial Hosp</a></li>
+												<li><a href="http://jointcommission.org" target="_blank">The Joint Commission</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="grid_5 omega rt-grid-1 ident-l">
+										<div class="rt-inner-ident-2">
+											<h3 class="ident-bot-8">Follow Us</h3>
+											<ul class="footer-list">
+												<li class="soc-1"><a href="http://www.facebook.com/pages/Elmhurst-Outpatient-Surgery-Center/138638692957863" target="_blank">Facebook</a></li>
+												<li class="soc-3"><a href="https://twitter.com/ElmhurstSurgCtr" target="_blank">Twitter</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</aside>
+							<div class="policy">
+								Elmhurst Outpatient Surgery Center &copy;
+								<script language="javascript" type="text/javascript">
+									var today = new Date()
+									var year = today.getFullYear()
+									document.write(' ' + year)
+								</script>
+								<a href="http://www.eosc.org/privacy.pdf" target="_blank">Privacy Policy</a>
+							</div>
+						</footer><!-- end footer -->
+					</div>
+				</div>
+			</div>
+		{% endblock %}
+	</div>
+</body>
+</html>

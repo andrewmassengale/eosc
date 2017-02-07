@@ -1,0 +1,192 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu {
+	line-height: 1.0;
+}
+.sf-menu ul li {
+	width: 100%;
+}
+.sf-menu li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float: left;
+	position: relative;
+}
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left: 0;
+	top: 30px; /* match top ul list item height */
+	z-index: 99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+
+/*** STYLIZATION ***/
+.sf-menu > li  {
+	margin-left:1px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: url('../images/zero.png');
+}
+.sf-menu > li > a {
+	font:12px;
+	line-height:28px;
+	color: #958a7e;
+	padding: 0 14px;
+	text-transform: uppercase;
+}
+.sf-menu > li > a:hover, .sf-menu > li.active > a, .sf-menu > li.sfHover > a {
+	color: #fff;
+}
+.sf-menu > li:hover, .sf-menu > li.active, .sf-menu > li.sfHover  {
+	background: #7cb641;
+}
+.sf-menu ul {
+	position: absolute;
+	top: -999em;
+	width: 165px;
+	padding: 0;
+	background: #7cb641;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.sf-menu li li a {
+	font-size:12px;
+	line-height:28px;
+	color: #ffffff;
+	padding-left: 14px;
+	padding-right: 14px;
+	text-transform: uppercase;
+}
+.sf-menu  li li.f-radius {
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+.sf-menu  li li.l-radius {
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+.sf-menu  li li:hover, .sf-menu > li li.active, .sf-menu > li li.sfHover {
+	background: #fff;
+}
+.sf-menu  li li a:hover, .sf-menu > li li.active a, .sf-menu > li li.sfHover > a {
+	color: #958a7e;
+	font-size: 12px;
+}
+
+.sf-sub-indicator {
+		display:none;
+	}
+	
+#menu-icon{ display:none;}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	
+}
+@media only screen and (max-width: 767px) {
+	#menu-icon {
+		color: #fff;
+		cursor: pointer;
+		display: block;
+		padding: 60px 13px 14px 13px;
+		text-indent: 0;
+		text-transform: uppercase;
+		background-color:#7cb641;
+		font-size:12px;
+		-webkit-border-radius: 0 0 4px 4px;
+		-moz-border-radius: 0 0 4px 4px;
+		border-radius: 0 0 4px 4px;
+	}
+	.sf-menu {
+		clear: both;
+		position: absolute;
+		top: 100px;
+		right:0;
+		width: 180px;
+		z-index: 10000;
+		display: none; /* visibility will be toggled with jquery */
+		background-color:#7cb641;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	.sf-menu li {
+		clear: both;
+		float: none;
+	}
+	.sf-menu a, 
+	.sf-menu ul a {
+		font: inherit;
+		color:#ffffff;
+	}
+	.sf-menu > li > a {color:#fff;}
+	.sf-menu ul {
+		width: auto;
+		position: static;
+		display: block !important;
+		background-color:#7cb641;
+		border-radius: 0;
+	}
+	.sf-menu ul {padding-top:5px; padding-bottom:5px;}
+	
+	.sf-menu > li li a {padding-left:20px;}
+	.sf-menu > li > a:hover, .sf-menu > li.active > a, .sf-menu > li.sfHover > a {
+		color: #985a7e;
+	}
+	.sf-menu > li:hover, .sf-menu > li.active, .sf-menu > li.sfHover  {
+		background: #fff !important;
+	}
+	.sf-menu > li {border-radius: 0;}
+	
+	.sf-sub-indicator {
+		text-indent: -999em;
+		width: 11px;
+		height: 7px;
+		display:inline-block;
+		background: url('../images/sf-sub-indicator.png') no-repeat;
+		position:relative;
+		left:10px;
+		top:10px;
+	}
+	.sf-menu li:hover .sf-sub-indicator, .sf-menu li.active .sf-sub-indicator, .sf-menu li.sfHover .sf-sub-indicator {background-position:0 -7px;}
+	
+	.sf-menu  li li.f-radius, .sf-menu  li li.l-radius {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+@media only screen and (min-width: 768px) {.sf-menu { display:block !important;}}

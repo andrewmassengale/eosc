@@ -1,0 +1,14 @@
+email: crichardson@eosc.org
+fullname: 'Clara Richardson'
+title: Administrator
+state: enabled
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+    maintenance: 'true'
+    statistics: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$KHrxAfZj6kZ3AEMHoOxkxe1C6/JvQclojUONN3u7DaGiqsODKBIr2
+language: en

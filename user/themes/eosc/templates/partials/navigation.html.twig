@@ -1,0 +1,55 @@
+{% macro loop(page, child) %}
+	{% set counter = 0 %}
+	{% for p in page.children.visible %}
+		{% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
+		{% if p.children.visible.count > 0 %}
+			<li class="has-children {{ current_page }}">
+				<a href="{{ p.url }}">
+					{% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+					{{ p.menu }}
+					<span></span>
+				</a>
+				<ul class="child-menu">
+					{{ _self.loop(p, true) }}
+				</ul>
+			</li>
+		{% else %}
+			<li class="{{ current_page }}{% if child %} child{% if counter == 0 %} first{% endif %}{% if counter + 1 == page.children.visible|length %} last{% endif %}{% endif %}">
+				<a href="{{ p.url }}"{% if p.template == 'external' %} target="_blank"{% endif %}>
+					{% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+					{{ p.menu }}
+				</a>
+			</li>
+		{% endif %}
+		{% set counter = counter + 1 %}
+	{% endfor %}
+{% endmacro %}
+
+<nav class="main-menu">
+	<div id="menu-icon">Menu</div>
+	<ul class="sf-menu">
+		{% if theme_config.dropdown.enabled %}
+			{{ _self.loop(pages, false) }}
+		{% else %}
+			{% for page in pages.children.visible %}
+				{% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+				<li class="{{ current_page }}">
+					<a href="{{ page.url }}">
+						{{ page.menu }}
+					</a>
+				</li>
+			{% endfor %}
+		{% endif %}
+		{% for mitem in site.menu %}
+			<li>
+				<a href="{{ mitem.url }}">
+					{% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
+					{{ mitem.text }}
+				</a>
+			</li>
+		{% endfor %}
+		{% if config.plugins.login.enabled and grav.user.username %}
+			<li><i class="fa fa-lock"></i> {% include 'partials/login-status.html.twig' %}</li>
+		{% endif %}
+	</ul>
+</nav>

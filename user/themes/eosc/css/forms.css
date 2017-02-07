@@ -1,0 +1,114 @@
+/* CONTACT FORM
+========================================================================= */
+#confirm {
+	position: relative;
+	height: auto;
+	padding-bottom: 30px;
+}
+#confirm  label {
+	display: block;
+	position: relative;
+	min-height: 49px;
+	width: 220px;
+}
+#confirm  label.message {
+	min-height: 340px;
+}
+#confirm input {
+	display: block;
+	margin: 0;
+	outline: none;
+	box-shadow: none !important;
+	padding: 0 14px;
+	width: 200px;
+	height: 33px;
+	font: 14px/20px Arial, sans-serif;
+	color: #aba196;
+	background: #f5f4f1;
+	border: 1px solid #c8c1b6;
+}
+#confirm textarea {
+	resize: none;
+	overflow: auto;
+	display: block;
+	margin: 0;
+	outline: none;
+	box-shadow: none !important;
+	padding: 10px 14px;
+	width: 400px;
+	height: 295px;
+	font: 14px/20px Arial, sans-serif;
+	color: #aba196;
+	background: #f5f4f1;
+	border: 1px solid #c8c1b6;
+}
+#confirm label > span {
+	color: #ed6c12;
+	position:relative;
+	left: 10px;
+}
+#confirm .success {
+	color:#ed6c12;
+	display:none;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+#confirm  .empty, #confirm  .error {
+	font-size:12px;
+	display:none;
+}
+#confirm .btns {
+	position: absolute;
+	right: 0;
+}
+#confirm .btns a {
+	margin-left: 5px;
+}
+
+/* MAP
+========================================================================= */
+.adress-fleft {float:left;}
+.margin-right-x {
+	margin-right:85px;
+}
+dl.adress {
+	display: block;
+	overflow:hidden;
+}
+dl.adress dd {
+	width: 225px;
+}
+dl.adress dd span {
+	float: right;
+}
+.map-border {
+	border: 1px solid #c8c1b6;
+}
+iframe {
+	width: 100%;
+	height: 403px;
+	margin:0;
+}
+
+/* MEDIA */
+/*==========================================*/
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	#confirm textarea {
+		width: 310px;
+	}
+	.margin-right-x {
+		margin-right:25px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#confirm textarea {
+		width: 228px;
+	}
+	.adress-fleft {float:none;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#confirm textarea {
+		width: 348px;
+	}
+	.adress-fleft {float:left;}
+}

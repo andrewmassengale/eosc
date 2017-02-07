@@ -1,0 +1,32 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+	{{ page.content }}
+						<div class="grid_{% if header.grid %}{{ header.grid }}{% else %}7{% endif %} omega">
+						<h2 class="ident-bot-3">{% if header.title == 'Physicians' %}Specialties{% else %}Physicians{% endif %}</h2>
+						<div class="line ident-bot-14"></div>
+						<div class="rt-inner-ident-3">
+							<p class="tetx-2 ident-bot-9"></p>
+							<ul class="list-1">
+								<li><a href="/physicians/anesthesia">Anesthesia</a></li>
+								<li><a href="/physicians/gastroenterology">Gastroenterology</a></li>
+								<li><a href="/physicians/general-surgery">General Surgery</a></li>
+								<li><a href="/physicians/gynecology">Gynecology</a></li>
+								<li><a href="/physicians/hand-and-upper-extremity">Hand/Upper Extremity</a></li>
+								<li><a href="/physicians/neurosurgery">Neurosurgery</a></li>
+								<li><a href="/physicians/ophthalmology">Ophthalmology</a></li>
+								<li><a href="/physicians/orthopaedic">Orthopaedic Surgery</a></li>
+								<li><a href="/physicians/otolaryngology">Otolaryngology</a></li>
+								<li><a href="/physicians/physiatry">Physiatry</a></li>
+								<li><a href="/physicians/plastic-surgery">Plastic Surgery</a></li>
+								<li><a href="/physicians/podiatry">Podiatry</a></li>
+								<li><a href="/physicians/retina">Retina</a></li>
+								<li><a href="/physicians/urology">Urology</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

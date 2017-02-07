@@ -1,0 +1,114 @@
+#container {margin: 0 auto;width: 940px; position:relative;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flex-pauseplay span {text-transform: capitalize;}
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+
+.flexslider {
+	width: 100%;
+	margin: 0;
+	position: relative;
+	margin-top:12px;
+	margin-bottom:10px;
+}
+.flexslider .slides img {
+	max-width: 100%;
+	display: block;
+}
+
+
+.flex-caption {
+	width:320px;
+	height:400px;
+	overflow:hidden;
+	position: absolute;
+	left:125px;
+	top:1px;
+	z-index:1;
+	background: url('../images/banner-tail.png');
+}
+	.slide-block-1 {
+		padding: 73px 10px 19px 40px;
+		text-transform: uppercase;
+	}
+		.slide-block-1 span {
+			display:block;
+		}
+			.slide-block-1 span.t-1 {
+				font-size:18px;
+				line-height:22px;
+				color:#1c9aef;
+			}
+			.slide-block-1 span.t-2 {
+				font-size:24px;
+				line-height:29px;
+				color:#958a7e;
+				margin-top:-21px;
+			}
+	.slide-block-2 {
+		background-color:#ffffff;
+		padding: 17px 30px 20px 40px;
+	}
+	.slide-block-3 {
+		padding: 22px 30px 20px 40px;
+	}
+	
+/* Control Nav */
+.flex-direction-nav {
+	display:none;
+}
+
+
+.flex-control-nav {
+	position:relative;
+	list-style:none;
+	padding:10px 0;
+	background: #f4f3f0;
+	width:100%;
+	overflow:hidden;
+}
+
+.flex-control-nav li {
+	float:left;
+	margin-left:6px;
+}
+	.flex-control-nav li:first-child {
+		margin-left:845px;
+	}
+.flex-control-nav li a {
+	display:block;
+	text-indent:-999em;
+	width:14px;
+	height:14px;
+	background: url('../images/pagination-a.png') no-repeat right 0;
+}
+	.flex-control-nav li a:hover, .flex-control-nav li a.active {
+		background-position:left 0;
+	}
+	
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.flex-control-nav li:first-child {
+		margin-left:650px;
+	}
+	.flex-caption {
+		height:320px;
+		left:80px;
+	}
+	.slide-block-1 {
+		padding-top:40px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.flex-caption {display:none;}
+	.flex-control-nav li:first-child {
+		margin-left:195px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.flex-control-nav li:first-child {
+		margin-left:315px;
+	}
+}
