@@ -8,17 +8,9 @@
 						<div class="rt-inner-ident-3">
 							<p class="tetx-2 ident-bot-9"></p>
 							<ul class="list-1">
-								<li><a href="/patients/preparation-for-surgery">Preparation for Surgery</a></li>
-								<li><a href="/patients/anesthesia">Anesthesia</a></li>
-                                <li><a href="/patients/day-surgery">Day of Surgery</a></li>
-								<li><a href="/patients/patient-rights">Patient Rights</a></li>
-								<li><a href="/patients/advanced-directives">Advanced Directives</a></li>
-								<li><a href="/patients/safety-and-comfort">Your Safety &amp; Comfort</a></li>
-								<li><a href="/patients/insurance-and-financial">Insurance &amp; Financial Responsibilities</a></li>
-								<li><a href="/patients/Patient_Brochure.pdf" target="_blank">Patient Brochure</a></li>
-								<li><a href="/patients/patient-survey" target="_blank">Patient Survey</a></li>
-                                <li><a href="/patients/investors">Investors</a></li>
-								<li><a href="/patients/2010_Authorization_Use-Disclose_PHI.pdf" target="_blank">Records Release</a></li>
+								{% for p in page.find('/patients').children %}
+									<li><a href="{{ p.url }}"{% if p.template == 'external' %} target="_blank"{% endif %}>{{ p.title }}</a></li>
+								{% endfor %}
                             </ul>
 						</div>
 					</div>

@@ -8,20 +8,9 @@
 						<div class="rt-inner-ident-3">
 							<p class="tetx-2 ident-bot-9"></p>
 							<ul class="list-1">
-								<li><a href="/physicians/anesthesia">Anesthesia</a></li>
-								<li><a href="/physicians/gastroenterology">Gastroenterology</a></li>
-								<li><a href="/physicians/general-surgery">General Surgery</a></li>
-								<li><a href="/physicians/gynecology">Gynecology</a></li>
-								<li><a href="/physicians/hand-and-upper-extremity">Hand/Upper Extremity</a></li>
-								<li><a href="/physicians/neurosurgery">Neurosurgery</a></li>
-								<li><a href="/physicians/ophthalmology">Ophthalmology</a></li>
-								<li><a href="/physicians/orthopaedic">Orthopaedic Surgery</a></li>
-								<li><a href="/physicians/otolaryngology">Otolaryngology</a></li>
-								<li><a href="/physicians/physiatry">Physiatry</a></li>
-								<li><a href="/physicians/plastic-surgery">Plastic Surgery</a></li>
-								<li><a href="/physicians/podiatry">Podiatry</a></li>
-								<li><a href="/physicians/retina">Retina</a></li>
-								<li><a href="/physicians/urology">Urology</a></li>
+								{% for p in page.find('/physicians').children %}
+									<li><a href="{{p.url}}" target="_self">{{ p.title }}</a></li>
+								{% endfor %}
 							</ul>
 						</div>
 					</div>
