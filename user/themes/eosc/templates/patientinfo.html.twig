@@ -9,7 +9,7 @@
 							<p class="tetx-2 ident-bot-9"></p>
 							<ul class="list-1">
 								{% for p in page.find('/patients').children %}
-									<li><a href="{{ p.url }}"{% if p.template == 'external' %} target="_blank"{% endif %}>{{ p.title }}</a></li>
+									<li><a href="{{ p.url }}"{% if p.template == 'external' %} target="_blank"{% endif %}>{{ p.menu }}</a></li>
 								{% endfor %}
                             </ul>
 						</div>

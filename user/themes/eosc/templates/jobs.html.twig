@@ -11,7 +11,7 @@
 							{% else %}
 								<ul class="list-2">
 									{% for p in page.find('/jobs').children %}
-										<li><a href="{{p.url}}" target="_self">{{ p.title }}</a></li>
+										<li><a href="{{p.url}}" target="_self">{{ p.menu }}</a></li>
 									{% endfor %}
 								</ul>
 							{% endif %}
