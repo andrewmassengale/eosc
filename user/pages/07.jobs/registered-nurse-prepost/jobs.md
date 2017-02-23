@@ -1,5 +1,6 @@
 ---
 title: 'Join Our Team - Registered Nurse - Pre-Operative / Post Anastesia Care Unit (PACU)'
+menu: 'Registered Nurse - Pre-Operative / Post Anastesia Care Unit (PACU)'
 ---
 
 <section id="content">
