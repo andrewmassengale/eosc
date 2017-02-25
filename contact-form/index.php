@@ -115,7 +115,7 @@
 																					</label>
 																					<br><br>
 																					<label for="MessageTypeSurgExp">
-																						<input type="radio" checked name="MessageType" id="MessageTypeSurgExp" value="Surgery Experience" tabindex="3" style="background-color: FFFFFF">
+																						<input type="radio" name="MessageType" id="MessageTypeSurgExp" value="Surgery Experience" tabindex="3" style="background-color: FFFFFF">
 																						<font size="2" class="style10">Surgery Experience</font>
 																					</label>
 																					<br><br>
