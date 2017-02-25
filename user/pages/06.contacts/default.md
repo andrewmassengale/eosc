@@ -26,7 +26,7 @@ slug: contact
 							<dd><span>331 221 4613</span>Billing Questions:</dd>
 							<dd><span>331 221 4627</span>Pre-Admit Phone:</dd>
 							<dd><span>331 221 3926</span>Pre-Admit Fax:</dd><br>
-							<dd>E-mail: <a class="link-1" href="https://www.eosc.org/contactus.cfm" target="_blank">Contact Form</a></dd>
+							<dd>E-mail: <a class="link-1" href="/contact-form" target="_blank">Contact Form</a></dd>
 						</dl>
 					 </div>
 					</div>

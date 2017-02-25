@@ -17,7 +17,7 @@ slug: insurance-and-financial
 								<div class="wrapper ident-bot-15">
 									<p><img class="" src="/patients/insurance-and-financial-responsibilities/insurance.jpg" alt="" /></p>
 									<br>
-									<p><strong>Insurance Plans and  Financing</strong></p>
+									<p><strong>Insurance Plans and Financing</strong></p>
 								</div>
 								<p class="ident-bot-2">EOSC participates in a variety of insurance plans.  For a list of insurance plans in which we participate, please select the link below:  </p>
 								<ul class="list-2">
