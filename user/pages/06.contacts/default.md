@@ -26,7 +26,7 @@ slug: contact
 							<dd><span>331 221 4613</span>Billing Questions:</dd>
 							<dd><span>331 221 4627</span>Pre-Admit Phone:</dd>
 							<dd><span>331 221 3926</span>Pre-Admit Fax:</dd><br>
-							<dd>E-mail: <a class="link-1" href="/contact-form" target="_blank">Contact Form</a></dd>
+							<!--<dd>E-mail: <a class="link-1" href="/contact-form">Contact Form</a></dd>-->
 						</dl>
 					 </div>
 					</div>
@@ -37,10 +37,10 @@ slug: contact
 					<p>Elmhurst Outpatient Surgery Center is located on the east side of the Elmhurst Memorial Hospital campus, at the intersection of York and Brush Hill Roads, just north of Roosevelt Road.  The campus is easily accessible from most major highways including I-290 (Eisenhower Expressway), I-88 (Ronald Reagan Memorial Tollway), and I-294 (Tri-State Tollway). EOSC is located in the Elmhurst Memorial Center for Health/Carol & William Parillo Building.  Enter the campus via the Brush Hill Road entrance and turn right onto Fronza Parkway. </p>
 					<br>
 					<div class="ident-bot-2 map-border">
-						<iframe src="http://maps.google.com/maps?q=1200+South+York+Road,+Elmhurst,+IL+60126&amp;hl=en&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=1200+S+York+Rd,+Elmhurst,+DuPage,+Illinois+60126&amp;t=m&amp;z=14&amp;ll=41.865022,-87.932278&amp;output=embed"></iframe>
+						<iframe src="https://maps.google.com/maps?q=1200+South+York+Road,+Elmhurst,+IL+60126&amp;hl=en&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=1200+S+York+Rd,+Elmhurst,+DuPage,+Illinois+60126&amp;t=m&amp;z=14&amp;ll=41.865022,-87.932278&amp;output=embed"></iframe>
 						<p><br />
-						<a class="link-1" href="http://maps.google.com/maps?q=1200+South+York+Road,+Elmhurst,+IL+60126&amp;hl=en&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=1200+S+York+Rd,+Elmhurst,+DuPage,+Illinois+60126&amp;t=m&amp;z=14&amp;ll=41.865022,-87.932278&amp;source=embed" target="_blank">View Larger Map</a></p>
-						<p><a class="link-1" href="http://maps.google.com/maps?q=1200+South+York+Road,+Elmhurst,+IL+60126&amp;hl=en&amp;gl=us&amp;sqi=2&amp;z=16" target="_blank">Directions to This Location</a></p>
+						<a class="link-1" href="https://maps.google.com/maps?q=1200+South+York+Road,+Elmhurst,+IL+60126&amp;hl=en&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=1200+S+York+Rd,+Elmhurst,+DuPage,+Illinois+60126&amp;t=m&amp;z=14&amp;ll=41.865022,-87.932278&amp;source=embed" target="_blank">View Larger Map</a></p>
+						<p><a class="link-1" href="https://maps.google.com/maps?q=1200+South+York+Road,+Elmhurst,+IL+60126&amp;hl=en&amp;gl=us&amp;sqi=2&amp;z=16" target="_blank">Directions to This Location</a></p>
 					</div>
 					<div class="wrapper">
 						<div class="">

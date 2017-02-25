@@ -17,7 +17,7 @@ menu: 'mobile message reminders'
 								<div class="block-left-3">
 									<p class="ident-bot-1">Hate waiting for phone calls and playing phone tag? Want helpful reminders regarding your appointment and procedure?</p>
 									<p class="ident-bot-1">Well, EOSC has a new solution! Now you can receive important information prior to your procedure on your mobile device via CareWire!</p>
-									<p class="ident-bot-1"><a class="button" href="/enroll-mobile" target="_blank">Enroll Now!</a></p>
+									<!--<p class="ident-bot-1"><a class="button" href="/enroll-mobile" target="_blank">Enroll Now!</a></p>-->
 								</div>
 							</div>
 						</div>
