@@ -75,6 +75,7 @@ cache:
     method: file
   driver: auto
   prefix: g
+  cli_compatibility: false
   lifetime: 604800
   gzip: false
   allow_webserver_gzip: false
@@ -104,7 +105,7 @@ errors:
   display: '1'
   log: true
 debugger:
-  enabled: false
+  enabled: true
   shutdown:
     close_connection: true
   twig: true
