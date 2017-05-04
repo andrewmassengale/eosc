@@ -20,6 +20,7 @@ title: Retina
 									<li>Kenneth Resnick, MD</li>
 									<li><a href="http://www.suburbanretina.com/our-physicians/susan-vierling-md/" target="_blank">Susan Vierling, MD</a><br /></li>
 									<li>Aaron Weinberg, MD</li>
+                                    <li>Daniel Owens, MD</li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">

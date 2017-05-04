@@ -32,7 +32,6 @@ slug: investors
 									<li>Blake Horio, MD</li>
 									<li>Peter Hui, MD</li>
 									<li>Janet Kaczor, MD</li>
-									<li>Charanjit Kalsi, MD</li>
 									<li>Christine Kassa, MD</li>
 									<li>Richard Keen, MD</li>
 									<li>Spero Kinnas, MD</li>
@@ -57,7 +56,6 @@ slug: investors
 										<li>Kirk Papa, MDD</li>
 										<li>Paul Parekh, MD</li>
 										<li>Scott Rieger, DPM</li>
-										<li>Elizabeth Sack, MD</li>
 										<li>Armando San Juan, MD</li>
 										<li>Harry Siavelis, MD</li>
 										<li>Eric Sloan, MD</li>

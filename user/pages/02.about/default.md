@@ -73,7 +73,7 @@ title: About
 							<li>Urology</li>
 						</ul>
 						<br>
-						<p>For a list of surgeons on our medical staff and links to their websites, please visit our <a class="link-1" href="http://www.eosc.org/physicians.html">Physicians</a> page.</p>
+						<p>For a list of surgeons on our medical staff and links to their websites, please visit our <a class="link-1" href="/physicians">Physicians</a> page.</p>
 					</div>
 					<div class="ident-bot-5">
 						<h2 class="ident-bot-3">Tours FOR TOTS</h2>
@@ -93,7 +93,7 @@ title: About
 					<p class="tetx-1"><a href="/about/EOSC_Catalys_Announcement_2012.pdf" target="_blank">View EOSC to Offer New Catalys <br>Precision Laser System</a></p>
 					<p class="tetx-2 ident-bot-9">PRweb - October 29, 2012 </p>
 					<p class="ident-bot-2">EOSC is the first facility in Illinois to purchase a Catalys™ Precision Laser System to perform cataract surgery and single/multi-plane arc cuts/corneal incisions for astigmatic correction.</p>
-					<p class="tetx-2">Tags: <a class="link-1" href="Catalys.html">cataracts</a>, <a class="link-1" href="/">vision</a>, <a class="link-1" href="http://www.eosc.org/ophthalmology.html">ophthalmology</a></p>
+					<p class="tetx-2">Tags: <a class="link-1" href="/home/catalys">cataracts</a>, <a class="link-1" href="/physicians/retina">vision</a>, <a class="link-1" href="/physicians/ophthalmology">ophthalmology</a></p>
 				</div>
 				<div class="grid_8 rt-ident-bot-1">
 					<p class="tetx-1"><a href="/about/OPM_November_2012.pdf" target="_blank">View The Many Faces of Wrong-Site Surgery Prevention </a></p>

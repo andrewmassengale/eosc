@@ -99,6 +99,7 @@ visible: false
 								</ul>
 
 								<p class="ident-bot-5"><b>The above statements are intended to describe the general nature and level of work being performed by people assigned to this job.  This document is not intending to be an exhaustive list of all responsibilities, skills, and working conditions for the persons so classified.  An employee may be assigned or requested to perform other related duties.</b></p>
+	                            <p class="ident-bot-5"><a href="/job-application">Click here to apply for this job</a></p>
 						</div>
 					</div>
 				</div>

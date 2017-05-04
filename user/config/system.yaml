@@ -77,8 +77,8 @@ cache:
   prefix: g
   cli_compatibility: false
   lifetime: 604800
-  gzip: false
-  allow_webserver_gzip: false
+  gzip: true
+  allow_webserver_gzip: true
 twig:
   cache: true
   debug: false
@@ -102,7 +102,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: '1'
+  display: '0'
   log: true
 debugger:
   enabled: false

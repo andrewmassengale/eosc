@@ -21,11 +21,10 @@ slug: contact
 							</p>
 							</br>
 							<dl class="adress">
-							<dd><span>331 221 4600</span>Main Phone:</dd>
-							<dd><span>331 221 3922</span>Main Fax:</dd>
-							<dd><span>331 221 4613</span>Billing Questions:</dd>
-							<dd><span>331 221 4627</span>Pre-Admit Phone:</dd>
-							<dd><span>331 221 3926</span>Pre-Admit Fax:</dd><br>
+							<dd><span>630 758 8800</span>Main Phone:</dd>
+							<dd><span>630 758 8805</span>Main Fax:</dd>
+							<dd><span>888 472 1327</span>Billing Questions:</dd>
+							<dd><span>630 758 8035</span>Pre-Admit Phone:</dd>
 							<!--<dd>E-mail: <a class="link-1" href="/contact-form">Contact Form</a></dd>-->
 						</dl>
 					 </div>

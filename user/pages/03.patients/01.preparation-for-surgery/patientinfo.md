@@ -25,7 +25,6 @@ visible: true
 								<p class="ident-bot-2">Patients who are unable to receive text messages will receive this information via telephone. If you are receiving reminders via telephone, our staff will ask you to provide a private phone number where we may leave information regarding your surgery. It is important that you check your voice mail messages the day prior to surgery as staff will communicate your arrival time and information any special preparation required. </p>
 								<p class="ident-bot-2">For more information regarding our mobile message reminder service, please select the <br>link below:</p>
 								<ul class="list-2">
-									<li><a href="/services/mobile-message-reminders">Mobile Message Reminders</a></li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">
