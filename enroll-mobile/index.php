@@ -223,7 +223,7 @@
 					<td><hr align="left" width="520" size="1" color="c4beb8"></td>
 				</tr>
 				<tr>
-					<td><font face="Arial"><img src="logoforms.jpg" width="192" height="83"></font></td>
+					<td><font face="Arial"><img src="/contact-form/logoforms.jpg" width="192" height="83"></font></td>
 				</tr>
 				<tr>
 					<td><font face="Arial" size="2" color="000000">1200 S. York Road, Elmhurst, IL 60126-5626</font></td>

@@ -46,7 +46,7 @@ menu: 'online medical history'
 						<p class="ident-bot-9"></p>
 						<ul class="list-2">
 							<li><a href="/services/online-medical-history">Get Online Medical History!</a></li>
-							<li><a href="/services/mobile-message-reminders">Get Mobile Message Reminders!</a><br /></li>
+							<li><a href="/enroll-mobile/">Get Mobile Message Reminders!</a><br /></li>
 						</ul>
 						<p>&nbsp;</p>
 					</div>
