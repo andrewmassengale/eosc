@@ -1,5 +1,6 @@
 ---
 title: Home
+media_order: 'page1-img2.jpg,page1-img3.jpg,privacy.pdf,WN4.jpg'
 home: true
 ---
 
@@ -68,7 +69,7 @@ home: true
 					<div class="rt-inner-ident-100">
 						<span><img class="ident-bot-7" src="/page1-img2.jpg" alt="" /></span>
 						<p class="tetx-2">NEW!</p>
-						<p class="tetx-1 ident-bot-1"><a href="/services/online-medical-history">Get Online Medical History!</a></p>
+						<p class="tetx-1 ident-bot-1"><a href="/online-medical-history">Get Online Medical History!</a></p>
 						<p>Patients may now provide their medical history and medications securely online 24/7 using our new Online Medical History tool! Select the above link to learn how to get started.</p>
 						<p>&nbsp;</p>
 						<p>&nbsp;</p>
@@ -80,8 +81,8 @@ home: true
 					<div class="rt-inner-ident-100">
 						<span><img class="ident-bot-7" src="/page1-img3.jpg" alt="" /></span>
 						<p class="tetx-2">NEW!</p>
-						<p class="tetx-1 ident-bot-1"><a href="/services/mobile-message-reminders">Get Mobile Message Reminders!</a></p>
-						<p>Want to eliminate phone calls and phone tag? Now you can receive important information prior to your procedure on your mobile device via CareWire. Select the above link to find out more.</p>
+						<p class="tetx-1 ident-bot-1"><a target="_blank" href="http://www2.onemedicalpassportcompany.com/EngageAnimation">Get Mobile Message Reminders!</a></p>
+						<p>Want to eliminate phone calls and phone tag? Now you can receive important information prior to your procedure on your mobile device. Select the above link to find out more.</p>
 						<p>&nbsp;</p>
 						<p>&nbsp;</p>
 						<p>&nbsp;</p>
@@ -90,11 +91,8 @@ home: true
 				</div>
 				<div class="grid_8 omega">
 					<div class="rt-inner-ident-100">
-						<span><img class="ident-bot-7" src="/page1-img4.jpg" alt="" /></span>
-						<p class="tetx-2">NEW!</p>
-						<p class="tetx-1 ident-bot-1">EOSC Blog Coming Soon!</p>
-						<p> Our upcoming new blog will deliver the latest buzz on new procedures and technology at EOSC,  valuable health information and much more. Stay in the know with EOSC.</p>
-						<p>&nbsp;</p>
+						
+                        <p>&nbsp;</p>
 						<p>&nbsp;</p>
 						<p>&nbsp;</p>
 						<p>&nbsp;</p>
