@@ -1,0 +1,7 @@
+enabled: true
+generate:
+  output_url: 'https://eosc.org'
+  output_path: build
+  assets: true
+  taxonomy: false
+  force: true
