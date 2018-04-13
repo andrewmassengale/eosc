@@ -1,9 +1,13 @@
-absolute_urls: false
+absolute_urls: true
 timezone: America/Chicago
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
 force_ssl: false
+force_lowercase_urls: true
+username_regex: '^[a-z0-9_-]{3,16}$'
+pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
+intl_enabled: true
 languages:
   include_default_lang: true
   translations: true
@@ -75,6 +79,7 @@ cache:
     method: file
   driver: auto
   prefix: g
+  clear_images_by_default: true
   cli_compatibility: false
   lifetime: 604800
   gzip: true
@@ -117,9 +122,11 @@ images:
   auto_fix_orientation: false
 media:
   enable_media_timestamp: false
-  upload_limit: 0
+  auto_metadata_exif: false
+  upload_limit: 2097152
 session:
   enabled: true
+  initialize: true
   timeout: 1800
   name: grav-site
   secure: false
@@ -129,3 +136,4 @@ gpm:
   releases: stable
   method: auto
   verify_peer: true
+  official_gpm_only: true
