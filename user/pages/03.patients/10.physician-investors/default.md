@@ -18,9 +18,9 @@ slug: investors
 							<div class="grid_8 alpha rt-ident-bot-2">
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
-									<li>Eugene Bartucci, MD</li>
 									<li>Nabil Barakat, MD</li>
 									<li>Andrew M. Belavic, MD</li>
+                                    <li>Tibor Boco, MD</li>
 									<li>Salil Doshi, MD</li>
 									<li>Val Evalen, MD</li>
 									<li>George Fikaris, MD</li>
@@ -29,15 +29,11 @@ slug: investors
 									<li>Balaji Gupta, MD</li>
 									<li>William Hadesman, MD</li>
 									<li>John Hamby, MD</li>
-									<li>Blake Horio, MD</li>
-									<li>Peter Hui, MD</li>
 									<li>Janet Kaczor, MD</li>
 									<li>Christine Kassa, MD</li>
-									<li>Richard Keen, MD</li>
 									<li>Spero Kinnas, MD</li>
 									<li>Gordon Kinzler, MD</li>
 									<li>Petras Kisielius, MD</li>
-									<li>Gary Kronen, MD</li>
 									<li>Sheridan Lam, MD</li>
 								</ul>
 							</div>
@@ -45,24 +41,14 @@ slug: investors
 								<div class="wrapper ident-bot-15"></div>
 									<ul class="list-2">
 										<li>Michael Less, MD</li>
-										<li>Neil Levin, DPM</li>
-										<li>Patrick Lynch, MD</li>
-										<li>Robert Marselle, MD</li>
 										<li>Michael Martirano, MD</li>
-										<li>Firdausi Mazda, MD</li>
 										<li>Timothy McCarthy, MD</li>
-										<li>Jeffrey Meisles, MD</li>
 										<li>John Ortega, MD</li>
-										<li>Kirk Papa, MDD</li>
 										<li>Paul Parekh, MD</li>
 										<li>Scott Rieger, DPM</li>
-										<li>Armando San Juan, MD</li>
 										<li>Harry Siavelis, MD</li>
-										<li>Eric Sloan, MD</li>
 										<li>Mark Spaccapaniccia, DPM</li>
 										<li>George Stathopoulos, MD</li>
-										<li>Srikrishna Talluri, MD</li>
-										<li>Frederick Tiesenga, MD</li>
 										<li>Marcelo Virgili, MD</li>
 										<li>Robert Whitcomb, MD</li>
 									</ul>

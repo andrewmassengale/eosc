@@ -17,7 +17,7 @@ title: Gastroenterology
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Christopher Boutin, MD</a></li>
-									<li><a href="http://www.elmhurstclinic.org" target="_blank">Ilysa Diamond, DO</a></li>
+									<li><a href="http://www.diamondgi.net/" target="_blank">Ilysa Diamond, DO</a></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Michael Greenspan, MD</a></li>
 									<li><a href="https://www.eehealth.org/find-a-doctor/d/dharan-kumar-s" target="_blank">Shakthi Kumar, MD</a></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Patrick Lynch, MD</a></li>
