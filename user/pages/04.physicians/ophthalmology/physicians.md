@@ -17,8 +17,6 @@ title: Ophthalmology
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
 									<li><a href="http://www.dupagemedicalgroup.com/our-physicians/Charles-S-Ahn" target="_blank">Charles Ahn, MD</a></li>
-                                    <li>Saba Alniemi, MD</li>
-									<li>Jane Bahk, MD</li>
 									<li><a href="http://www.larsoneyecenter.com/" target="_blank">Kathleen Blake, MD</a></li>
 									<li><a href="http://www.glassesfree.com/" target="_blank">Richard Foulkes, MD</a></li>
                                     <li>Meena George, MD</li>
@@ -33,7 +31,6 @@ title: Ophthalmology
 								<ul class="list-2">
 									<li><a href="http://www.mccarthyeyecenter.com/id5.html" target="_blank">Timothy J. McCarthy, DO</a></li>
 									<li><a href="http://anstadtproctoreyecare.com/AboutUs/MeetOurDoctors.aspx" target="_blank" >Brian Proctor, DO</a></li>
-                                    <li>Shantan Reddy, MD</li>
 									<li>Mark Ros, MD</li>
 									<li><a href=" https://www.eehealth.org/find-a-doctor/s/samy-arun" target="_blank">Arun K. Samy, MD</a></li>
 									<li><a href="http://www.oakparkeyecenter.com/HomeOfTheOakParkEyeCenter/ManuelSantiagoM.D..html" target="_blank">Manuel Santiago, MD</a></li>

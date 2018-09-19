@@ -22,6 +22,7 @@ title: Anesthesia
 									<li><a href="http://www.etherelm.com" target="_blank">Val Evalen, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">George S. Fikaris, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">John G. Girardot, MD</a></li>
+									<li><a href="http://www.etherelm.com" target="_blank">Sandra Goyal, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Juozas Gurevicius, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Laura Hahn, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Christine Kassa, MD</a></li>
@@ -36,12 +37,10 @@ title: Anesthesia
 								<ul class="list-2">
 									<li><a href="http://www.etherelm.com" target="_blank">Michael A. Less, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Craig Malk, MD</a></li>
-									<li><a href="http://www.etherelm.com" target="_blank">Linda Nikho, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Winnie Y. Ruo, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Abdul Shirazi, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Alexander L. Stonov, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Steven Stuart, MD</a></li>
-									<li><a href="http://www.etherelm.com" target="_blank">Robert M. Whitcomb, MD</a></li>
 								</ul>
 								<p>&nbsp;</p>
 							</div>

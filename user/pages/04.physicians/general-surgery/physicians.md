@@ -17,19 +17,13 @@ title: 'General Surgery'
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
 									<li>Stephen Boghossian, MD</li>
-									<li><a href="http://www.doctorduarte.com" target="_blank">Bernardo Duarte, MD</a></li>
 									<li>John A. Hamby, MD</li>
+									<li>Minh Luu, MD</li>
 									<li>Michael Martirano, MD</li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Brian McCann, MD</a></li>
 									<li>Stephen Mendak, Jr., MD</li>
-								</ul>
-							</div>
-							<div class="grid_8 omega">
-								<div class="wrapper ident-bot-15"></div>
-								<ul class="list-2">
 									<li>Harry A. Siavelis, MD</li>
-									<li><a href="http://www.elmhurstclinic.org" target="_blank">Marcelo E. Virgili, MD</a></a></li>
-						 		</ul>
+								</ul>
 							</div>
 						</div>
 					</div>

@@ -17,7 +17,6 @@ title: 'Plastic Surgery'
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
 									<li><a href="https://www.eehealth.org/find-a-doctor/p/pavone-lucio" target="_blank">Lucio Pavone, MD</a></li>
-									<li><a href="http://www.dpsamed.com/dr-rios.cfm" target="_blank">Jose L. Rios, MD</a></li>
 									<li><a href="https://www.eehealth.org/find-a-doctor/s/seitz-iris" target="_blank">Iris Seitz, MD</a></li>
 									<li><a href="http://www.drstefani.com/ds-about_drstefani.htm" target="_blank">Ronald H. Stefani, MD</a></li>
 								</ul>

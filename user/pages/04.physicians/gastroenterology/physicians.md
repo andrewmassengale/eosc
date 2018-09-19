@@ -21,7 +21,6 @@ title: Gastroenterology
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Michael Greenspan, MD</a></li>
 									<li><a href="https://www.eehealth.org/find-a-doctor/d/dharan-kumar-s" target="_blank">Shakthi Kumar, MD</a></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Patrick Lynch, MD</a></li>
-									<li>Utpal. Parekh, MD</li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Elizabeth Sack Barczynski, MD</a></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">George Stathopoulos, MD</a></li>
 								</ul>

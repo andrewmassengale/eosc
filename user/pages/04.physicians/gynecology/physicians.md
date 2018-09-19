@@ -16,11 +16,7 @@ title: Gynecology
 							<div class="grid_8 alpha rt-ident-bot-2">
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
-									<li><a href="https://www.eehealth.org/find-a-doctor/a/acharya-vasant" target="_blank">Vasant Acharya, MD</a></li>
-									<li><a href="https://www.eehealth.org/find-a-doctor/b/biester-elaine" target="_blank">Elaine Biester, MD</a></li>
-									<li>Charanjit K. Kalsi, MD</li>
-									<li><a href="https://www.eehealth.org/find-a-doctor/c/chorzempa-schainis-lisa" target="_blank">Lisa Chorzempa-Schainis, MD</a></li>
-									<li><a href="https://www.eehealth.org/find-a-doctor/s/san-juan-armando" target="_blank">Armando San Juan, MD</a></li>
+									
 								</ul>
 							</div>
 							<div class="grid_8 omega">

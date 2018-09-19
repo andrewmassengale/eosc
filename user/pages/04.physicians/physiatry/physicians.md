@@ -19,9 +19,10 @@ title: Physiatry
 									<li><a href="http://www.emhc.org/find-a-doctor/physician-info/1362/Brian-Couri" target="_blank">Brian Couri, MD</a></li>
                                     <li>Martin Fetzer, DO</li>
 									<li><a href="http://spineandsportsdocs.squarespace.com/our-physicians/" target="_blank">Lawrence Frank, MD</a></li>
-									<li><a href="http://www.emhc.org/find-a-doctor/physician-info/1701/Min-Kim" target="_blank">Min Kim, MD</a></li>
+									<li>John Gashkoff, MD</li>
                                     <li>Henry Legaspi, DO</li>
                                     <li>Kimberly Mercurio, MD</li>
+                                    <li>Yousuf Sayeed, MD</li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">

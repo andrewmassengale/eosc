@@ -16,8 +16,8 @@ title: Retina
 							<div class="grid_8 alpha rt-ident-bot-2">
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
-                                    <li>Anurag Gupta, MD</li>
 									<li><a href="http://www.retinagroupchicago.com/about.asp" target="_blank">Blake Horio, MD</a></li>
+                                    <li>Hari Mylvaganam, MD</li>
                                     <li>Daniel Owens, MD</li>
                                     <li>Kevin Patel, MD</li>
 									<li>Kenneth Resnick, MD</li>

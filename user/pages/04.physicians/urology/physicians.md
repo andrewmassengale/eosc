@@ -18,6 +18,7 @@ title: Urology
 								</div>
 								<ul class="list-2">
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Khalid Badwan, MD</a></li>
+									<li>Zuhair Hussaini, MD</li>
 									<li>Gordon Kinzler, MD</li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Petras V. Kisielius, MD</a></li>
 								</ul>

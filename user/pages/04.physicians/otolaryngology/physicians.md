@@ -16,12 +16,12 @@ title: Otolaryngology
 							<div class="grid_8 alpha rt-ident-bot-2">
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
-                                    <li>Tatiana Dixon, MD</li>
+                                    <li>Benjamin Caughlin, MD</li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Salil V. Doshi, MD</a></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Janet M. Kaczor, MD</a><br /></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">John D. Ortega, MD</a></li>
                                     <li>Miriam Redleaf, MD</li>
-									<li><a href=" http://www.deantoriumiplasticsurgery.com/" target="_blank">Dean Toriumi, MD</a><br /></li>
+									<li>Jeffrey Yu, MD</li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">
