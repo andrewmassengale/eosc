@@ -15,6 +15,7 @@ use Grav\Common\Page\Pages;
 use Grav\Framework\Route\RouteFactory;
 use Grav\Framework\Uri\UriFactory;
 use Grav\Framework\Uri\UriPartsFilter;
+use RocketTheme\Toolbox\Event\Event;
 
 class Uri
 {
@@ -1139,6 +1140,8 @@ class Uri
             $this->scheme = $env['HTTP_X_FORWARDED_PROTO'];
         } elseif (isset($env['X-FORWARDED-PROTO'])) {
             $this->scheme = $env['X-FORWARDED-PROTO'];
+        } elseif (isset($env['HTTP_CLOUDFRONT_FORWARDED_PROTO'])) {
+            $this->scheme = $env['HTTP_CLOUDFRONT_FORWARDED_PROTO'];
         } elseif (isset($env['REQUEST_SCHEME'])) {
            $this->scheme = $env['REQUEST_SCHEME'];
         } else {
@@ -1167,6 +1170,10 @@ class Uri
            $this->port = (int)$env['HTTP_X_FORWARDED_PORT'];
         } elseif (isset($env['X-FORWARDED-PORT'])) {
            $this->port = (int)$env['X-FORWARDED-PORT'];
+        } elseif (isset($env['HTTP_CLOUDFRONT_FORWARDED_PROTO'])) {
+           // Since AWS Cloudfront does not provide a forwarded port header,
+           // we have to build the port using the scheme.
+           $this->port = $this->port();
         } elseif (isset($env['SERVER_PORT'])) {
            $this->port = (int)$env['SERVER_PORT'];
         } else {
@@ -1284,6 +1291,9 @@ class Uri
             } elseif (!empty($_POST)) {
                 $this->post = (array)$_POST;
             }
+
+            $event = new Event(['post' => &$this->post]);
+            Grav::instance()->fireEvent('onHttpPostFilter', $event);
         }
 
         if ($this->post && null !== $element) {
