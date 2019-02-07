@@ -16,17 +16,22 @@ title: Physiatry
 							<div class="grid_8 alpha rt-ident-bot-2">
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
+                                    <li>Alex Behar, MD</li>
 									<li><a href="http://www.emhc.org/find-a-doctor/physician-info/1362/Brian-Couri" target="_blank">Brian Couri, MD</a></li>
                                     <li>Martin Fetzer, DO</li>
 									<li><a href="http://spineandsportsdocs.squarespace.com/our-physicians/" target="_blank">Lawrence Frank, MD</a></li>
 									<li>John Gashkoff, MD</li>
-                                    <li>Henry Legaspi, DO</li>
-                                    <li>Kimberly Mercurio, MD</li>
-                                    <li>Yousuf Sayeed, MD</li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">
 								<div class="wrapper ident-bot-15"></div>
+                                <ul class="list-2">
+                                    <li>Henry Legaspi, DO</li>
+                                    <li>Kimberly Mercurio, MD</li>
+                                    <li>Yogen Patel, MD</li>
+                                    <li>Yousuf Sayeed, MD</li>
+                                    <li>Mehul Sekhadia, MD</li>
+                                </ul>
 							</div>
 						</div>
 					</div>

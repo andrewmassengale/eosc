@@ -17,7 +17,6 @@ title: Neurosurgery
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
 									<li>Tibor Boco, MD</li>
-									<li>Vivek Mohan, MD</li>
 									<li>John Song, MD</li>
 								</ul>
 							</div>

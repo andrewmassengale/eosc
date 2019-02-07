@@ -21,7 +21,6 @@ title: 'General Surgery'
 									<li>Minh Luu, MD</li>
 									<li>Michael Martirano, MD</li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Brian McCann, MD</a></li>
-									<li>Stephen Mendak, Jr., MD</li>
 									<li>Harry A. Siavelis, MD</li>
 								</ul>
 							</div>

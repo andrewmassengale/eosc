@@ -20,8 +20,6 @@ title: Otolaryngology
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Salil V. Doshi, MD</a></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">Janet M. Kaczor, MD</a><br /></li>
 									<li><a href="http://www.elmhurstclinic.org" target="_blank">John D. Ortega, MD</a></li>
-                                    <li>Miriam Redleaf, MD</li>
-									<li>Jeffrey Yu, MD</li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">

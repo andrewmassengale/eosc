@@ -27,15 +27,15 @@ title: Anesthesia
 									<li><a href="http://www.etherelm.com" target="_blank">Laura Hahn, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Christine Kassa, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Suzanne Kellman, MD</a></li>
-									<li><a href="http://www.etherelm.com" target="_blank">Jonathan Kind, MD</a></li>
-									<li><a href="http://www.etherelm.com" target="_blank">Edyta Leicht, MD</a></li>
-									<li><a href="http://www.etherelm.com" target="_blank">Richard Lenz, DO</a></li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">
 								<div class="wrapper ident-bot-15"></div>
 								<ul class="list-2">
-									<li><a href="http://www.etherelm.com" target="_blank">Michael A. Less, MD</a></li>
+									<li><a href="http://www.etherelm.com" target="_blank">Jonathan Kind, MD</a></li>
+									<li><a href="http://www.etherelm.com" target="_blank">Edyta Leicht, MD</a></li>
+									<li><a href="http://www.etherelm.com" target="_blank">Richard Lenz, DO</a></li>
+                                    <li><a href="http://www.etherelm.com" target="_blank">Michael A. Less, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Craig Malk, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Winnie Y. Ruo, MD</a></li>
 									<li><a href="http://www.etherelm.com" target="_blank">Abdul Shirazi, MD</a></li>

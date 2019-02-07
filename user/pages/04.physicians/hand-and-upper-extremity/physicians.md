@@ -18,7 +18,6 @@ title: 'Hand & Upper Extremity'
 								<ul class="list-2">
 									<li><a href="http://midwesthand.com/hand-wrist-surgeons/" target="_blank">Nabil Barakat, MD</a></li>
 									<li>Kerri Ann Kulovitz, MD</li>
-									<li><a href="http://www.mmortho.com/?Joanne_Labriola=.&@@@@=92" target="_blank">Joanne Labriola, MD</a></li>
 									<li>Mansour Vincent Makhlouf, MD</li>
 									<li><a href="http://www.handtoshoulderclinic.com/physicians/default.aspx?nid=47&rid=6" target="_blank">Paul E. Papierski, MD</a></li>
                                     <li>Samir Shah, MD</li>

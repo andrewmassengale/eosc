@@ -21,36 +21,37 @@ slug: investors
 									<li>Nabil Barakat, MD</li>
 									<li>Andrew M. Belavic, MD</li>
                                     <li>Tibor Boco, MD</li>
+                                    <li>Christopher Boutin, MD</li>
 									<li>Salil Doshi, MD</li>
 									<li>Val Evalen, MD</li>
 									<li>George Fikaris, MD</li>
+                                    <li>Meena George, MD</li>
 									<li>John Giradot, MD</li>
 									<li>Juozas Gurevicius, MD</li>
 									<li>Balaji Gupta, MD</li>
 									<li>William Hadesman, MD</li>
 									<li>John Hamby, MD</li>
-									<li>Janet Kaczor, MD</li>
 									<li>Christine Kassa, MD</li>
 									<li>Spero Kinnas, MD</li>
-									<li>Gordon Kinzler, MD</li>
-									<li>Petras Kisielius, MD</li>
-									<li>Sheridan Lam, MD</li>
 								</ul>
 							</div>
 							<div class="grid_8 omega">
 								<div class="wrapper ident-bot-15"></div>
 									<ul class="list-2">
-										<li>Michael Less, MD</li>
+                                        <li>Gordon Kinzler, MD</li>
+                                        <li>Petras Kisielius, MD</li>
+                                        <li>Kerri Kulovitz, DO</li>
+                                        <li>S. Dharan Kumar, MD</li>
+                                        <li>Sheridan Lam, MD</li>
+                                        <li>Michael Less, MD</li>
 										<li>Michael Martirano, MD</li>
 										<li>Timothy McCarthy, MD</li>
 										<li>John Ortega, MD</li>
-										<li>Paul Parekh, MD</li>
+                                        <li>Savan Patel, MD</li>
 										<li>Scott Rieger, DPM</li>
 										<li>Harry Siavelis, MD</li>
 										<li>Mark Spaccapaniccia, DPM</li>
 										<li>George Stathopoulos, MD</li>
-										<li>Marcelo Virgili, MD</li>
-										<li>Robert Whitcomb, MD</li>
 									</ul>
 								</div>
 						</div>
